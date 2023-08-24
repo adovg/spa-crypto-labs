@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background: #1c1b1f url("./img/bg.png") center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  // .header__title
+
+  &__title {
+    //display: inline-block;
+    font-family: $fontRetro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 88px;
+    text-transform: capitalize;
+    color: #ffffff;
+    @media (max-width: $breakpoint992) {
+      font-size: 50px;
+    }
+    @media (max-width: $breakpoint768) {
+      font-size: 38px;
+      line-height: 120%;
+    }
+    @media (max-width: $breakpoint480) {
+      font-size: 28px;
+    }
+  }
+
+  // .header__text
+
+  &__text {
+    //display: inline-block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-top: 40px;
+    @media (max-width: $breakpoint768) {
+      font-size: 22px;
+    }
+    @media (max-width: $breakpoint480) {
+      font-size: 18px;
+    }
+  }
+
+  // .header__button
+
+  &__button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 40px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    margin-top: 40px;
+    background-color: #000;
+  }
+}
