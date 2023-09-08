@@ -14,7 +14,6 @@
   z-index: 5;
   margin-top: 15px;
   background: rgba(197, 197, 190, 0.5);
-
 }
 
 .burger__btn.active .line:nth-child(2) {
@@ -54,7 +53,6 @@
   .menu__item-mobile {
     cursor: pointer;
     a {
-
     }
     &:hover {
       transition: 0.8s hover ease;
@@ -64,14 +62,15 @@
 
 @media (max-width: $breakpoint768) {
   .mobile {
-    margin: 10px;
-    padding: 10px;
-    display: flex; 
+    // margin: 10px;
+    // padding: 10px;
+    display: flex;
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: nowrap;
   }
   .burger__btn {
     display: flex;
+    margin-right: 10px;
   }
-} 
+}

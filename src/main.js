@@ -23,5 +23,29 @@ window.onload = () => {
     menuMobile.classList.toggle("hidden");
   }
 
+
+function menuToTop () {
+
+
+let scrollHight = window.pageYOffset;
+
+    let navbar = document.querySelector('.navbar');
+  if (scrollHight > 0 ) {
+   navbar.classList.add('scrolled');
+  } else if(scrollHight == 0) {
+    navbar.classList.remove('scrolled');
+  }
+};
+
+  window.addEventListener('scroll', menuToTop);
  
 };
+
+
+
+
+
+
+
+
+// menuToTop(scrollHight, navbar);
