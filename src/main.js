@@ -1,9 +1,6 @@
 import '../src/styles.scss';
 
-
-
 window.onload = () => {
-  console.log('hello world')
   const burgerBtn = document.querySelector(".burger__btn");
   const menuMobile = document.querySelector(".menu-mobile");
   const accordion = document.getElementsByClassName("tab");
@@ -24,28 +21,19 @@ window.onload = () => {
   }
 
 
-function menuToTop () {
+  function menuToTop() {
 
 
-let scrollHight = window.pageYOffset;
+    let scrollHight = window.pageYOffset;
 
     let navbar = document.querySelector('.navbar');
-  if (scrollHight > 0 ) {
-   navbar.classList.add('scrolled');
-  } else if(scrollHight == 0) {
-    navbar.classList.remove('scrolled');
-  }
-};
+    if (scrollHight > 0) {
+      navbar.classList.add('scrolled');
+    } else if (scrollHight == 0) {
+      navbar.classList.remove('scrolled');
+    }
+  };
 
   window.addEventListener('scroll', menuToTop);
- 
+
 };
-
-
-
-
-
-
-
-
-// menuToTop(scrollHight, navbar);

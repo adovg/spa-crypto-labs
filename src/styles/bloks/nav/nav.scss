@@ -2,13 +2,7 @@
   position: fixed;
   left: 0;
   right: 0;
-  top: 100px;
-  // overflow: hidden;
-  // display: block;
-
-  // //justify-content: space-between;
-  // //align-items: center;
-  // padding: 18px 20px;
+  top: 20px;
 }
 
 .scrolled {
@@ -21,7 +15,6 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-
   cursor: pointer;
 }
 
@@ -29,10 +22,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  //max-width: 250px;
   width: 100%;
+
   .menu__item {
-    //opacity: 0.8;
     margin-right: 40px;
     font-style: normal;
     font-weight: 500;
@@ -43,6 +35,7 @@
     color: #ffffff;
     display: flex;
     align-items: center;
+
     &:hover {
       opacity: 1;
       transition: 0.3s ease;
@@ -59,12 +52,12 @@
   .menu__item {
     display: none;
   }
+
   .logo {
     display: none;
   }
+
   .menu {
     display: none;
-    //justify-content: flex-end;
-    //align-items: center;
   }
 }

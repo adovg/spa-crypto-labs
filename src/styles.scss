@@ -22,14 +22,6 @@
 
 .section__wrapper {
   padding: 80px 0;
-  // @media (max-width: $breakpoint768) {
-  //   padding-left: 40px;
-  //   padding-right: 40px;
-  // }
-  // @media (max-width: $breakpoint480) {
-  //   padding-left: 15px;
-  //   padding-right: 15px;
-  // }
 }
 
 main {
@@ -67,5 +59,4 @@ main {
 @import "./styles/bloks/projects/projects.scss";
 @import "./styles/bloks/objects/objects.scss";
 @import "./styles/bloks/info/info.scss";
-
 @import "./styles/bloks/footer/footer.scss";

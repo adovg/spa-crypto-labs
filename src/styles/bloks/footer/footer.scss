@@ -3,22 +3,19 @@
   padding-top: 56px;
   padding-bottom: 26px;
   color: white;
-}
 
-.footer {
   // .footer__content
-
   &__content {
     display: flex;
     flex-direction: row;
   }
 
   // .footer__social
-
   &__social {
     display: flex;
     flex-direction: column;
     margin-right: 80px;
+
     li {
       margin-bottom: 12px;
       font-style: normal;
@@ -30,6 +27,7 @@
       color: #ffffff;
       display: flex;
       align-items: center;
+
       &:hover {
         color: #47be68;
         transition: 0.3s all ease;
@@ -38,7 +36,6 @@
   }
 
   // .footer__copyright
-
   &__copyright {
     margin-top: 80px;
     font-style: normal;
